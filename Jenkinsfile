@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'matser',
+                git branch: 'master',
                     url: 'https://github.com/totoruudev/springboot-app'
             }
         }
