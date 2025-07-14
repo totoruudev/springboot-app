@@ -1,0 +1,1 @@
+INSERT into USER (id, name) VALUES (1, 'Jenkins');
